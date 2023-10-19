@@ -11,6 +11,8 @@
 ###################################################################
 library(tidyverse)
 library(tidycensus)
+library(sf)
+library(crsuggest)
 
 options(tigris_use_cache=TRUE)
 # load the variable list for 2020 into a dataframe
